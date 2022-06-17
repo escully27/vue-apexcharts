@@ -17,15 +17,14 @@ export default {
           bar: {
             horizontal: false,
             endingShape: 'rounded',
-            columnWidth: '55%',
+            columnWidth: [20, 10, 20]
           },
         },
         dataLabels: {
           enabled: false
         },
         stroke: {
-          show: true,
-          width: 2,
+          show: false,
           colors: ['transparent']
         },
 
@@ -50,13 +49,7 @@ export default {
       },
       series: [{
         name: 'Net Profit',
-        data: [44, 55, 57, 56, 61, 58, 63, 60, 66]
-      }, {
-        name: 'Revenue',
-        data: [76, 85, 41, 98, 87, 44, 91, 81, 94]
-      }, {
-        name: 'Free Cash Flow',
-        data: [35, 41, 36, 26, 45, 48, 52, 53, 41]
+        data: [44, 55, 57]
       }],
     }
   },
