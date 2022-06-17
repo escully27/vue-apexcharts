@@ -1,5 +1,5 @@
 {
-  "name": "vue-apexcharts",
+  "name": "vue-apexcharts-escully",
   "version": "1.6.2",
   "description": "Vue.js wrapper for ApexCharts",
   "main": "dist/vue-apexcharts.js",
@@ -9,7 +9,7 @@
   },
   "repository": {	
     "type": "git",
-    "url": "https://github.com/apexcharts/vue-apexcharts.git"
+    "url": "https://github.com/escully27/vue-apexcharts"
   },
   "keywords": [
     "Vue.js",
@@ -27,7 +27,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "apexcharts": "^3.26.0"
+    "apexcharts": "git+https://github.com/escully27/apexcharts.js"
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
