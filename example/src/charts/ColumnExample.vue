@@ -17,7 +17,7 @@ export default {
           bar: {
             horizontal: false,
             endingShape: 'rounded',
-            columnWidth: [20, 10, 20]
+            columnWidth: [50, 10, 20]
           },
         },
         dataLabels: {
