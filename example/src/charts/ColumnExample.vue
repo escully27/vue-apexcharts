@@ -17,7 +17,7 @@ export default {
           bar: {
             horizontal: false,
             endingShape: 'rounded',
-            columnWidth: [50, 10, 20]
+            columnWidth: [100, 40, 100],
           },
         },
         dataLabels: {
@@ -26,10 +26,6 @@ export default {
         stroke: {
           show: false,
           colors: ['transparent']
-        },
-
-        xaxis: {
-          categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
         },
         yaxis: {
           title: {
