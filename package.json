@@ -7,7 +7,7 @@
     "bundle": "rollup -c",
     "build": "npm run bundle"
   },
-  "repository": {	
+  "repository": {
     "type": "git",
     "url": "https://github.com/escully27/vue-apexcharts"
   },
@@ -25,10 +25,10 @@
   "bugs": {
     "url": "https://github.com/apexcharts/vue-apexcharts/issues"
   },
-  "license": "MIT",
   "peerDependencies": {
     "apexcharts": "git+https://github.com/escully27/apexcharts.js"
   },
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/plugin-external-helpers": "^7.0.0",
